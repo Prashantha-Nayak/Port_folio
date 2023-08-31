@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+/* Hero styles */
+.hero {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f96302;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d95300;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 40px 20px;
+}
+
+.destinations h2,
+.tours h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .nav-links.active {
+        display: block;
+    }
+    
+    .nav-links.active li {
+        margin: 10px 0;
+    }
+}
