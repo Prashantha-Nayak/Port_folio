@@ -258,7 +258,7 @@ nav ul li a:hover:after
 }
 .about-image {
   max-width: 75%; /* Set the image width to 35% of the viewport width */
-  height: 75%; /* Maintain the aspect ratio */
+  height: auto; /* Maintain the aspect ratio */
   position: absolute; /* Required for absolute positioning */
   left: 10%; /* Position the image from the left side */
   border-left: 30%;
